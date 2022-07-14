@@ -38,6 +38,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     justify-content:space-between;
 }
 table{
+    margin-top: 54px;
     height: 262px;
     text-align: center;
     border-collapse: collapse;
