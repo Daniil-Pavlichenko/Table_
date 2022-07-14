@@ -22,11 +22,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     height: 410px;
     margin: 12px auto 0 auto;
     /* background: url(../img/ajCnMLmwiskxtaF7HCVDqgs5bkrQMJp4xZWBANI2ic-m9WerU4P_WppoBdCsRAVzmVnvRiaqqukxAR9Lh8BggiRI\ 1.png) no-repeat; */
-    background-position: 445px 30px;
-    padding-top: 90px;
+    /* background-position: 445px 30px; */
+    padding-top: 36px;
     padding-left: 49px;
+    display: flex;
+    justify-content:space-between;
 }
 .table2{
+    padding-top: 54px;
     position: relative;
     width: 832px;
     height: 410px;
@@ -37,6 +40,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding-left: 49px;
 }
 table{
+    height: 262px;
     text-align: center;
     border-collapse: collapse;
 }
@@ -92,6 +96,11 @@ td:nth-child(4){
     padding-left: 15px;
     width: 92px;
 }
+.image{
+    width: 188px;
+    height: 348px;
+    margin-right: 58px;
+}
 .image
 hr{
     background-color: #A4A4A4;
@@ -99,46 +108,46 @@ hr{
 }
 .image
 .line1{
-    position: absolute;
+    /* position: absolute; */
     width: 54px;
-    top: 38px;
-    left: 619px;
+    /* top: 38px;
+    left: 619px; */
 }
 .line2{
-    position: absolute;
+    /* position: absolute; */
     width: 33px;
-    top: 119px;
-    left: 640px;
+    /* top: 119px; */
+    /* left: 640px; */
 }
 .line3{
-    position: absolute;
+    /* position: absolute; */
     width: 45px;
     height: 0px;
-    left: 628px;
-    top: 152px;
+    /* left: 628px; */
+    /* top: 152px; */
 }
 .line4{
-    position: absolute;
+    /* position: absolute; */
     width: 40px;
     height: 0px;
-    left: 633px;
-    top: 185px;
+    /* left: 633px; */
+    /* top: 185px; */
 }
 .line5{
-    position: absolute;
+    /* position: absolute; */
     width: 348px;
     height: 0px;
-    left: 621px;
-    top: 37px;
+    /* left: 621px; */
+    /* top: 37px; */
     transform: rotate(90deg);
     transform-origin: 0 0 0;
     background-color: #A4A4A4;
     height: 1px;
 }
 img{
-    position: absolute;
-    top: 36px;
-    left: 561px;
+    /* position: absolute; */
+    /* top: 36px; */
+    /* left: 561px; */
 }
 .image
 p{
@@ -148,24 +157,24 @@ p{
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-    position: absolute;
-    left: 685px;
+    /* position: absolute; */
+    /* left: 685px; */
 }
 .growt
 p{
-    top: 38px;
+    /* top: 38px; */
 }
 .bust
 p{
-    top: 119px;
+    /* top: 119px; */
 }
 .waist
 p{
-    top:152px;
+    /* top:152px; */
 }
 .hips
 p{
-    top: 185px;
+    /* top: 185px; */
 }
 .title{
     font-family: 'Roboto';
@@ -175,9 +184,9 @@ p{
     line-height: 16px;
     text-align: right;
     color: #000000;
-    position: absolute;
-    top: 313px;
-    left: 621px;
+    /* position: absolute; */
+    /* top: 313px; */
+    /* left: 621px; */
     text-align: end;
     width: 128px;
     height: 56px;
