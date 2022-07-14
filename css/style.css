@@ -21,8 +21,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     width: 832px;
     height: 410px;
     margin: 12px auto 0 auto;
-    /* background: url(../img/ajCnMLmwiskxtaF7HCVDqgs5bkrQMJp4xZWBANI2ic-m9WerU4P_WppoBdCsRAVzmVnvRiaqqukxAR9Lh8BggiRI\ 1.png) no-repeat; */
-    /* background-position: 445px 30px; */
     padding-top: 36px;
     padding-left: 49px;
     display: flex;
@@ -34,10 +32,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     width: 832px;
     height: 410px;
     margin: 12px auto 0 auto;
-    /* background: url(../img/ajCnMLmwiskxtaF7HCVDqgs5bkrQMJp4xZWBANI2ic-m9WerU4P_WppoBdCsRAVzmVnvRiaqqukxAR9Lh8BggiRI\ 1.png) no-repeat; */
-    background-position: 445px 30px;
-    padding-top: 90px;
+    padding-top: 36px;
     padding-left: 49px;
+    display: flex;
+    justify-content:space-between;
 }
 table{
     height: 262px;
@@ -100,6 +98,7 @@ td:nth-child(4){
     width: 188px;
     height: 348px;
     margin-right: 58px;
+    position: relative;
 }
 .image
 hr{
@@ -108,46 +107,41 @@ hr{
 }
 .image
 .line1{
-    /* position: absolute; */
+    position: absolute;
     width: 54px;
-    /* top: 38px;
-    left: 619px; */
+    top: 2px;
+    left: 58px;
 }
 .line2{
-    /* position: absolute; */
+    position: absolute;
     width: 33px;
-    /* top: 119px; */
-    /* left: 640px; */
+    top: 83px;
+    left: 79px;
 }
 .line3{
-    /* position: absolute; */
+    position: absolute;
     width: 45px;
     height: 0px;
-    /* left: 628px; */
-    /* top: 152px; */
+    left: 67px;
+    top: 116px;
 }
 .line4{
-    /* position: absolute; */
+    position: absolute;
     width: 40px;
     height: 0px;
-    /* left: 633px; */
-    /* top: 185px; */
+    left: 72px;
+    top: 149px;
 }
 .line5{
-    /* position: absolute; */
+    position: absolute;
     width: 348px;
     height: 0px;
-    /* left: 621px; */
-    /* top: 37px; */
+    left: 60px;
+    top: 1px;
     transform: rotate(90deg);
     transform-origin: 0 0 0;
     background-color: #A4A4A4;
     height: 1px;
-}
-img{
-    /* position: absolute; */
-    /* top: 36px; */
-    /* left: 561px; */
 }
 .image
 p{
@@ -157,24 +151,24 @@ p{
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-    /* position: absolute; */
-    /* left: 685px; */
+    position: absolute;
+    left: 124px;
 }
 .growt
 p{
-    /* top: 38px; */
+    top: 2px;
 }
 .bust
 p{
-    /* top: 119px; */
+    top: 83px;
 }
 .waist
 p{
-    /* top:152px; */
+    top:116px;
 }
 .hips
 p{
-    /* top: 185px; */
+    top: 149px;
 }
 .title{
     font-family: 'Roboto';
@@ -184,9 +178,9 @@ p{
     line-height: 16px;
     text-align: right;
     color: #000000;
-    /* position: absolute; */
-    /* top: 313px; */
-    /* left: 621px; */
+    position: absolute;
+    top: 277px;
+    left: 60px;
     text-align: end;
     width: 128px;
     height: 56px;
